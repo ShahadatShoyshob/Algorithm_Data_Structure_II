@@ -84,12 +84,3 @@ The current `main()` contains example expressions and prints results such as:
 - Division by zero is not explicitly handled.
 - `searchVariable()` currently uses `symbolTable[name]` which can create a default entry if the variable doesn’t exist.  
   (A safer approach is to use `find()` and handle missing variables explicitly.)
-
----
-
-## Suggested Improvements (Optional)
-
-- Take user input from the console instead of hard-coded expressions
-- Improve error handling (invalid expressions, missing variables, divide-by-zero)
-- Support negative numbers, floating-point values, or additional operators
-- Increase stack size dynamically (e.g., use `std::vector<int>` internally)
